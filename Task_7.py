@@ -8,7 +8,7 @@ sums = []
 for _ in range(N):
     d1 = random.randint(1, 6)
     d2 = random.randint(1, 6)
-    sums.append(1 + d2)
+    sums.append(d1 + d2)
 
 count = Counter(sums)
 possible_sums = list(range(2, 13))
